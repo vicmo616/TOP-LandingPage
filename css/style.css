@@ -174,7 +174,7 @@ button:hover{background-color: #0051d4;}
     font-style: italic;
     font-size: 36px;
     font-weight: light;
-    width: 650px;
+    width: 800px;
     text-wrap: wrap;
 }
 
@@ -182,4 +182,63 @@ button:hover{background-color: #0051d4;}
     font-weight: 800;
     font-size: 24px;
     margin-left: 350px;
+}
+
+/* SIGNUP SECTION FOUR STYLES */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.signup-bluebox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    background-color: #3882F6;
+    padding: 38px;
+    width: 58%;
+    border-radius: 5px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+.signup-texts {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+.signup-top-text {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.signup-subtext {
+    font-size: 12px;
+}
+
+.signup-button button {
+    border: 1px solid white;
+}
+.signup-button button:hover{
+    border: none;
+}
+
+/* FOOTER SECTION STYLES */
+
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin-top: 36px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 12px;
 }
